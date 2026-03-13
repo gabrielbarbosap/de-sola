@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${outfit.variable} min-h-screen font-sans antialiased`}
+        className={`${outfit.variable} min-h-screen overflow-x-hidden font-sans antialiased`}
       >
         <div className="flex min-h-screen flex-col">
           <Navbar />

@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
-      <header className="mb-10">
-        <h1 className="mb-2 text-3xl font-bold tracking-tight text-emerald-950 sm:text-4xl lg:text-5xl">
+    <div className="mx-auto max-w-6xl px-3 py-6 sm:px-6 sm:py-8 lg:px-8">
+      <header className="mb-6 sm:mb-10">
+        <h1 className="mb-1.5 text-2xl font-bold tracking-tight text-black sm:mb-2 sm:text-4xl lg:text-5xl">
           Últimas Notícias
         </h1>
-        <p className="text-lg text-emerald-800/80">
+        <p className="text-base text-neutral-700 sm:text-lg">
           Tudo sobre o De Sola FC em um só lugar
         </p>
       </header>

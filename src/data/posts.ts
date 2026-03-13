@@ -2,6 +2,34 @@ import type { Post } from "@/types/post";
 
 export const posts: Post[] = [
   {
+    title: "VSR Brilha e Gil Desencanta na Vitória do De Sola FC sobre o Botafogo-SP",
+    slug: "vsr-brilha-gil-desencanta-vitoria-de-sola-fc-botafogo-sp",
+    excerpt:
+      "O De Sola FC reencontrou o caminho das vitórias. VSR foi o destaque com gol de cabeça, e Gil finalmente desencantou marcando seu segundo gol no campeonato.",
+    coverImage: "/golvsr.png",
+    date: "2025-03-08",
+    author: "Redação De Sola FC News",
+    content: `
+      <p>O De Sola FC reencontrou o caminho das vitórias em grande estilo ao bater o Botafogo-SP. O grande destaque da noite foi o zagueiro VSR, que além de uma atuação impecável na defesa, subiu mais alto que todo mundo na grande área para marcar um belo gol de cabeça, garantindo a festa nas arquibancadas. O "xerife" do time provou ser decisivo também no ataque, sendo o nome do jogo.</p>
+      
+      <p>A noite foi de alívio e redenção para o atacante Gil, que finalmente desencantou e marcou o seu segundo gol no campeonato. Após sofrer duras críticas e enfrentar um jejum incômodo, o artilheiro balançou as redes, selando o placar e trazendo a paz de volta ao elenco. Com o resultado, o De Sola FC ganha fôlego na tabela e recupera a confiança de sua apaixonada torcida.</p>
+    `,
+  },
+  {
+    title: "APENAS 1 GOL: Torcida do De Sola FC perde a paciência e encurrala atacante no CT",
+    slug: "apenas-1-gol-torcida-de-sola-fc-encurrala-atacante-ct",
+    excerpt:
+      "A paciência da torcida organizada chegou ao limite após o desempenho pífio do principal atacante, que balançou as redes apenas uma vez no Paulista. O CT virou palco de protesto hostil.",
+    coverImage: "/gil.png",
+    date: "2025-03-11",
+    author: "Redação De Sola FC News",
+    content: `
+      <p>A paciência da torcida organizada do De Sola FC chegou ao limite após o desempenho pífio do seu principal atacante, que balançou as redes apenas uma vez em todo o Campeonato Paulista. O Centro de Treinamento virou palco de um protesto hostil, onde o jogador foi visto aos prantos enquanto integrantes revoltados gritavam palavras de ordem e exibiam faixas de cobrança. O clima de desespero do atleta diante da fúria dos torcedores reflete a crise profunda que se instalou no clube.</p>
+      
+      <p>Com o ataque paralisado e a pressão aumentando a cada rodada, o ambiente no De Sola FC tornou-se uma panela de pressão. A diretoria tenta conter os ânimos, mas a cobrança por resultados é imediata e a torcida deixa claro que não aceitará mais justificativas para o jejum de gols. O próximo compromisso da equipe será um verdadeiro "tudo ou nada" para o jogador, cuja permanência no time titular está cada vez mais ameaçada pela insatisfação das arquibancadas.</p>
+    `,
+  },
+  {
     title: "BOMBA: Gil confirma traição de goleiro do De Sola FC em noitada polêmica",
     slug: "bomba-gil-confirma-traicao-goleiro-de-sola-fc-noitada-polemica",
     excerpt:
@@ -29,20 +57,6 @@ export const posts: Post[] = [
       <p>O meia carioca Pedro Certezas, atual reforço de um clube paulista, vive dias de pura melancolia longe das terras fluminenses. A saudade do Rio de Janeiro bateu tão forte que o jogador chegou a colocar sua permanência em xeque, cogitando seriamente pedir a rescisão de contrato para voltar às suas raízes. No entanto, o destino do atleta mudou após um conselho decisivo de Caio Capita; o líder do elenco chamou Certezas para uma conversa franca e o convenceu a não desistir do projeto em São Paulo, reforçando a importância de sua resiliência para o grupo.</p>
       
       <p>Parece que o conselho surtiu um efeito inusitado e explosivo na mentalidade do jogador. Recentemente, quem passava pela Avenida Paulista foi pego de surpresa ao ver o craque, vestindo uma camisa com a estampa do Cristo Redentor, soltando um grito ensurdecedor de "VIDAAAAA!" em meio ao caos da metrópole. O momento, que rapidamente viralizou, foi interpretado por muitos como um desabafo emocional e um sinal de que o carioca está, finalmente, tentando encontrar seu lugar na capital paulista, mesmo que o coração ainda bata no ritmo da Cidade Maravilhosa.</p>
-    `,
-  },
-  {
-    title: "APENAS 1 GOL: Torcida do De Sola FC perde a paciência e encurrala atacante no CT",
-    slug: "apenas-1-gol-torcida-de-sola-fc-encurrala-atacante-ct",
-    excerpt:
-      "A paciência da torcida organizada chegou ao limite após o desempenho pífio do principal atacante, que balançou as redes apenas uma vez no Paulista. O CT virou palco de protesto hostil.",
-    coverImage: "/gil.png",
-    date: "2025-03-11",
-    author: "Redação De Sola FC News",
-    content: `
-      <p>A paciência da torcida organizada do De Sola FC chegou ao limite após o desempenho pífio do seu principal atacante, que balançou as redes apenas uma vez em todo o Campeonato Paulista. O Centro de Treinamento virou palco de um protesto hostil, onde o jogador foi visto aos prantos enquanto integrantes revoltados gritavam palavras de ordem e exibiam faixas de cobrança. O clima de desespero do atleta diante da fúria dos torcedores reflete a crise profunda que se instalou no clube.</p>
-      
-      <p>Com o ataque paralisado e a pressão aumentando a cada rodada, o ambiente no De Sola FC tornou-se uma panela de pressão. A diretoria tenta conter os ânimos, mas a cobrança por resultados é imediata e a torcida deixa claro que não aceitará mais justificativas para o jejum de gols. O próximo compromisso da equipe será um verdadeiro "tudo ou nada" para o jogador, cuja permanência no time titular está cada vez mais ameaçada pela insatisfação das arquibancadas.</p>
     `,
   },
   {
